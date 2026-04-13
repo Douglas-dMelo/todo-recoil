@@ -1,16 +1,121 @@
-# React + Vite
+# 📝 To-Do List com Recoil
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub repo size](https://img.shields.io/github/repo-size/SEU-USUARIO/todo-recoil)
+![GitHub last commit](https://img.shields.io/github/last-commit/SEU-USUARIO/todo-recoil)
+![GitHub stars](https://img.shields.io/github/stars/SEU-USUARIO/todo-recoil?style=social)
+![License](https://img.shields.io/github/license/SEU-USUARIO/todo-recoil)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Sobre o projeto
 
-## React Compiler
+Aplicação de gerenciamento de tarefas (To-Do List) desenvolvida com **React + Recoil**, focada em organização de estado global, boas práticas e estrutura escalável.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto permite criar, visualizar, filtrar e gerenciar tarefas de forma simples e eficiente.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Funcionalidades
+
+* ✅ Adicionar novas tarefas
+* 📋 Listar tarefas
+* ✔️ Marcar tarefas como concluídas
+* ❌ Remover tarefas
+* 🔍 Filtrar tarefas:
+
+  * Todas
+  * Pendentes
+  * Concluídas
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+* React
+* Recoil
+* Vite
+* CSS puro
+
+---
+
+## 📦 Como rodar o projeto
+
+```bash
+# Clonar repositório
+git clone https://github.com/SEU-USUARIO/todo-recoil.git
+
+# Entrar na pasta
+cd todo-recoil
+
+# Instalar dependências
+npm install
+
+# Rodar projeto
+npm run dev
+```
+
+---
+
+## 📁 Estrutura do projeto
+
+```
+src/
+├── atoms/
+├── selectors/
+├── components/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 📸 Preview
+
+<img src="./src/assets/to-do-recoil.png" alt="preview do projeto"/>
+
+---
+
+## 🔗 Deploy
+
+👉 Em breve...
+
+<!-- Exemplo quando fizer deploy -->
+
+<!-- [Acessar aplicação](https://seu-projeto.vercel.app) -->
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Douglas Melo**
+
+* GitHub: https://github.com/SEU-USUARIO
+* LinkedIn: (coloque aqui depois)
+
+---
+
+## 💡 Melhorias futuras
+
+* Persistência com LocalStorage
+* Edição de tarefas
+* Drag and Drop
+* Dark Mode
+* Integração com backend
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se à vontade para abrir issues ou contribuir com melhorias!
+
+---
+
+## ⚡ Status do projeto
+
+🚧 Em desenvolvimento
